@@ -28,7 +28,7 @@ function(code_sign_windows target)
   )
 
   if(ARGV_TARGET)
-    set(ARGV_TARGET $<TARGET_FILE:${ARGV_TARGET}>)
+    set(ARGV_PATH $<TARGET_FILE:${ARGV_TARGET}>)
 
     list(APPEND ARGV_DEPENDS ${ARGV_TARGET})
   else()
