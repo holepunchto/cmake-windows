@@ -69,6 +69,8 @@ function(code_sign_windows target)
     set(ARGV_TIMESTAMP "http://timestamp.digicert.com")
   endif()
 
+  set(args)
+
   if(ARGV_SUBJECT_NAME)
     list(APPEND args /n "${ARGV_SUBJECT_NAME}")
   endif()
