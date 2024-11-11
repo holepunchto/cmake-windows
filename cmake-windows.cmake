@@ -1,4 +1,4 @@
-include_guard(GLOBAL)
+include_guard()
 
 function(find_windows_sdk)
   set(one_value_keywords
