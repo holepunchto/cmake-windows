@@ -31,7 +31,6 @@ function(find_sign_tool result)
     sign_tool
     NAMES SignTool
     PATHS "${sdk_bin_dir}"
-    NO_DEFAULT_PATH
     REQUIRED
   )
 
